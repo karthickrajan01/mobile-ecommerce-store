@@ -19,6 +19,23 @@ class Navbar extends Component {
             </Link>
           </li>
         </ul>
+
+        <div class="col-xs-6 col-md-4 ml-50 px-15">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search"
+              id="txtSearch"
+            />
+            <div class="input-group-btn">
+              <button class="btn btn-primary" type="submit">
+                <i className="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
         <Link to="/cart" className="ml-auto">
           <Button>
             <span>
